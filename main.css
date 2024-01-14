@@ -1,17 +1,30 @@
 body {
-  background-color: blueviolet;
+  background-color: red;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 600px;
+  text-align: center;
+  border: 1px solid black;
+  margin: 10px;
+
+
 }
 
 .top-of-page {
-  text-align: center;
-  width: 400px;
+  
+}
+
+h4 {
+  font-size: small;
 }
 
 .block-buttons {
   display: flex;
-  width: 400px;
   flex-direction: column;
-  margin: 25px 50px;
+
+  
 }
 
 .btn {
@@ -19,10 +32,13 @@ body {
 }
 
 
-.info {
-}
-
 .section {
   width: 400px;
   text-align: center;
+}
+
+img {
+  width: 100px;
+  border-radius: 50%; 
+  margin-top: 5px;
 }
